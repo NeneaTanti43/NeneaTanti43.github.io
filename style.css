@@ -1,0 +1,26 @@
+body {
+    background: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    animation: hang infinite 5s;
+    transform-origin: top center;
+}
+
+@keyframes hang {
+    0% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+.txt {
+    text-decoration: none;
+    color: white;
+}
